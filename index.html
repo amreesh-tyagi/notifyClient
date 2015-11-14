@@ -22,6 +22,8 @@
   app.initialize();
 
   document.addEventListener('deviceready', function() {
+      var socket = io.connect('https://notificationserver-batman-1.c9users.io');
+	 
     socket.on('connect', function() {
       socket.on('text', function(text) {
         alert(text);
