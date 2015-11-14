@@ -16,5 +16,5 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true" />
   </feature>
-  <gap:plugin name="nl.genkgo.inappbrowser" version="0.5.0" />
+  <gap:plugin name="nl.genkgo.inappbrowser" />
 </widget>
