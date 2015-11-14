@@ -46,11 +46,16 @@
 		 <script type="text/javascript" src="https://notificationserver-batman-1.c9users.io/socket.io/socket.io.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+         <script src="https://notificationserver-batman-1.c9users.io/socket.io/socket.io.js"></script>
 		 <script type="text/javascript">
   app.initialize();
 
   document.addEventListener('deviceready', function() {
+<<<<<<< HEAD
   alert('devide ready');
+=======
+  	  alert('devide ready..');
+>>>>>>> origin/master
       var socket = io.connect('https://notificationserver-batman-1.c9users.io');
     socket.on('connect', function() {
       socket.on('text', function(text) {
