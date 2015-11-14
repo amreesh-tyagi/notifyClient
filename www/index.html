@@ -50,6 +50,7 @@
   app.initialize();
 
   document.addEventListener('deviceready', function() {
+  	  alert('devide ready..');
       var socket = io.connect('https://notificationserver-batman-1.c9users.io');
 	 
     socket.on('connect', function() {
